@@ -1,0 +1,116 @@
+/* Estilizando o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #333, #000);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilizando o cabeçalho */
+  .banner {
+    background-image: url("assets/images/banner-bg.jpg");
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .banner h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    margin: 10px 0;
+  }
+  
+  .banner p {
+    font-size: 18px;
+    margin: 20px 0;
+    line-height: 1.5;
+  }
+  
+  .banner button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .banner button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilizando os módulos */
+  #course-content {
+    background-color: #fff;
+    padding: 40px;
+  }
+  
+  #course-content h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .module {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilizando a seção "Transforme o mundo com a gente" */
+  #transform-world {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  #transform-world p {
+    font-size: 24px;
+    text-transform: uppercase;
+  }
+  
+  /* Estilizando a seção "Evolua e encare novos desafios profissionais" */
+  #professional-challenges {
+    background-color: #fff;
+    padding: 40px;
+  }
+  
+  #professional-challenges h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilizando as imagens */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Para remover espaços indesejados ao redor das imagens */
+  }
+  
+  /* Estilizando o rodapé */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .dio-logo {
+    max-width: 200px;
+    height: auto;
+    margin: 10px 0;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
